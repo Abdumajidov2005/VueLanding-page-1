@@ -6,17 +6,17 @@ import { BaseButton } from "@/components/ui";
   <header>
     <nav>
       <div class="container_1280 flex justify-between items-center py-8">
-        <div class="w-32 h-11 cursor-pointer">
+        <div data-aos="zoom-out" class="w-32 h-11 cursor-pointer">
           <img class="w-full h-full" src="@/assets/icons/logo.svg" alt="" />
         </div>
         <ul class="flex items-center gap-9 nav_link">
-          <li>Home</li>
-          <li>Sobre</li>
-          <li>Serviços</li>
-          <li>Nosso App</li>
-          <li>Blog</li>
+          <li data-aos="fade-down-left" data-aos-delay="300">Home</li>
+          <li data-aos="fade-down-left" data-aos-delay="400">Sobre</li>
+          <li data-aos="fade-down-left" data-aos-delay="500">Serviços</li>
+          <li data-aos="fade-down-left" data-aos-delay="600">Nosso App</li>
+          <li data-aos="fade-down-left" data-aos-delay="700">Blog</li>
         </ul>
-        <BaseButton variant="primary">Acessar</BaseButton>
+        <BaseButton data-aos="zoom-out" variant="primary">Acessar</BaseButton>
       </div>
     </nav>
   </header>
