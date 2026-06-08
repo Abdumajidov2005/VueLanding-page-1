@@ -8,8 +8,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   resolve: {
-    alias: {
-      "@": "/src",
-    },
+    alias: { "@": "/src", },
   },
 })
