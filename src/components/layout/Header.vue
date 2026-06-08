@@ -9,7 +9,7 @@ import { BaseButton } from "@/components/ui";
         <div data-aos="zoom-out" class="w-32 h-11 cursor-pointer">
           <img class="w-full h-full" src="@/assets/icons/logo.svg" alt="" />
         </div>
-        <ul class="flex items-center gap-9 nav_link">
+        <ul class="lg:flex lg:items-center lg:gap-9 nav_link hidden">
           <li data-aos="fade-down-left" data-aos-delay="300">Home</li>
           <li data-aos="fade-down-left" data-aos-delay="400">Sobre</li>
           <li data-aos="fade-down-left" data-aos-delay="500">Serviços</li>

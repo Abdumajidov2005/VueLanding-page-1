@@ -1,9 +1,24 @@
 @import "tailwindcss";
 
 @layer components {
+  body {
+    overflow-x: hidden;
+  }
   .container_1280 {
     max-width: 1200px;
     margin: 0 auto;
+  }
+  @media (max-width: 600px) {
+    .container_1280 {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 1000px) {
+    .container_1280 {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
   }
   .nav_link > li {
     font-size: 18px;
