@@ -29,7 +29,7 @@
     padding-bottom: 6px;
     letter-spacing: 1px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease !important;
   }
   .nav_link > li:hover {
     color: #fbbc05;

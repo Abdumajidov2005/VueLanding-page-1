@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-  <h1>Footer</h1>
+  <h1>About pages</h1>
 </template>

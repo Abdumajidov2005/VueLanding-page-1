@@ -1,0 +1,5 @@
+export { default as Footer } from "./layout/Footer.vue"
+export { default as Header } from "./layout/Header.vue"
+export { default as About } from "./sections/About.vue"
+export { default as Hero } from "./sections/Hero.vue"
+export { default as Products } from "./sections/Products.vue"

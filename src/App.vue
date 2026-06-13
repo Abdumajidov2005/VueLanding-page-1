@@ -1,7 +1,5 @@
 <script setup>
-import Header from "./components/layout/Header.vue";
-import Hero from "./components/sections/Hero.vue";
-import Products from "./components/sections/Products.vue";
+import { About, Footer, Header, Hero, Products } from "./components";
 </script>
 
 <template>
@@ -9,5 +7,7 @@ import Products from "./components/sections/Products.vue";
   <main>
     <Hero />
     <Products />
+    <About />
   </main>
+  <Footer />
 </template>
