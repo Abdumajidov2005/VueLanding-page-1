@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 @layer components {
+  ::selection{
+    background-color: #FCC936;
+    color: white;
+  }
   body {
     overflow-x: hidden;
   }

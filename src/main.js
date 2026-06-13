@@ -8,5 +8,6 @@ createApp(App).mount('#app')
 
 Aos.init({
     duration: 1000,
-    once: true,
+    once: false,
+    mirror: true,
 });

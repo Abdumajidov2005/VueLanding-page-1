@@ -3,10 +3,10 @@ import { BaseButton } from "@/components/ui";
 </script>
 <template>
   <div
-    class="flex justify-between items-center flex-wrap container_1280 lg:pt-14 lg:pb-28 pt-9 pb-14"
+    class="flex flex-col-reverse lg:flex-row lg:justify-between justify-center items-center flex-wrap container_1280 lg:pt-14 lg:pb-28 pt-9 pb-14"
   >
     <div
-      class="w-lg lg:text-left text-center mb-5 mx-auto"
+      class="lg:w-lg w-full lg:text-left text-center mb-5 mx-auto"
       data-aos="fade-right"
     >
       <h1 class="text-[#0D0C22] font-medium lg:text-5xl text-4xl leading-14">

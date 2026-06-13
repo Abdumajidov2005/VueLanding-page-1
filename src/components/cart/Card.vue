@@ -5,7 +5,10 @@ import { dataBases } from "../data/app";
   <div
     v-for="item in dataBases"
     :key="item.id"
-    class="w-80 shadow shadow-1xl hover:shadow-2xl hover:-translate-y-2 active:translate-y-1 transition duration-300 ease-in-out shadow-[#00000040] text-center py-6 px-8"
+    data-aos="fade-up"
+    data-aos-anchor-placement="top-center"
+    style="transition: all 0.3s ease"
+    class="lg:w-80 w-full shadow shadow-1xl hover:shadow-2xl hover:-translate-y-2 active:translate-y-1 transition duration-300 ease-in-out shadow-[#00000040] text-center py-6 px-8"
   >
     <component :is="item.svg" class="w-10 h-10 mx-auto" />
     <h1 class="text-[#323232] text-[16px] lg:text-[28px] font-bold py-6">
